@@ -3,20 +3,25 @@ import { StyleSheet, Text, View, Button, Pressable, TextInput } from 'react-nati
 export default function App() {
   return (
     <View style={styles.container}>
+      
       <Text>This is another piece of text on the screen</Text>
       <Text style={styles.textbox}>Hello World!!</Text>
       <Button title='Tap Me!'/>
       <Pressable style={styles.button}><Text>Tap Me!</Text></Pressable>
 
       <View style={styles.appContainer}>
+
         <View style={styles.inputContainer}>
           <TextInput style={styles.textInput} placeholder='Your Course Goal'></TextInput>
           <Button title='Add Goal'/>
         </View>
+
         <View>
           <Text>List of Goals...</Text>
         </View>
+
       </View>
+
     </View>
 
     
